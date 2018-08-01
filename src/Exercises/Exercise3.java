@@ -5,6 +5,8 @@ import java.util.*;
 //3. Napisz funkcję, która przyjmuje dowolną kolekcję obiektów klasy Double i zwraca wartość maksymalną i minimalną tej kolekcji.
 //Aby zwrócić 2 wartości z funkcji możesz zwrócić je w formie tablicy dwuelementowej lub napisać własną klasę reprezentującą
 //parę o nazwie Pair.
+
+//Znów bardzo ładnie zrobione zadanie :)
 public class Exercise3 {
 
     public static void main(String[] args) {
@@ -32,6 +34,8 @@ public class Exercise3 {
             }
 
         }
+        // Jak w poprzednich: arr można od razu zwrócić.
+        // return new double[]{mix, max}
         double[] arr = new double[]{min, max};
 
         return arr;
